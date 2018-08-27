@@ -391,11 +391,11 @@ const weatherData = {
              let cityWeather = obj.list[i].weather[0].main;
              document.getElementById("cityWeather").innerHTML = cityWeather;
              if(cityWeather === "Rainy"){
-                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/weather/rainy.png";
+                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/rainy64p.png";
              }else if(cityWeather === "Cloudy"){
-                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/weather/cloudy.png";
+                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/cloudy64p.png";
              }else{
-                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/weather/sunny.png";
+                 document.getElementById("iconImgID").src = "https://solidmaybe.github.io/sunny64p.png";
              }
              let cityHumidity = obj.list[i].main.humidity;
              document.getElementById("humidityID").innerHTML = cityHumidity;
