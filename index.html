@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="weather.css" />
+
+        <style>
+        body{
+            background-image: url("https://solidmaybe.github.io/weather/partly-cloudy-early-evening-light.jpg");
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+    </style>
+    
+    <title class="lobster">Solid Maybe Weather</title>
+
+</head>
+
+<body background= "Pics/partlyCloudy2.jpg"> 
+    
+<div class="container">
+        <span class="logo white lobster">SMW</span>
+    <select id="mySelect" onchange="gitCity()">
+                <option value="Arroyo Grande">Arroyo Grande
+                <option value="Callender">Callender
+                <option value="Grover Beach">Grover Beach
+                <option value="Miles">Miles
+                <option value="Nipomo">Nipomo
+                <option value="Oceano">Oceano
+                <option value="Pismo Beach">Pismo Beach
+                <option value="San Luis Obispo">San Luis Obispo
+                <option value="San Luis Obispo County">San Luis Obispo County
+                <option value="Santa Maria">Santa Maria
+              </select>    
+
+</div> 
+<h1 id= "city_name" class="lobster text-center big white">Your City, CA</h1>
+<h2 class="lobster text-center small">Solid Maybe Weather</h2>
+
+
+<div class="row">
+        <div class="col-md-6">
+                <img id= "iconImgID" class= "icon" src= "PNG/sunny.png">
+                <p class= "conditions white" id= "cityWeather">Test Text</p>
+                
+                </div>
+                <div class="col-md-6">
+                    <p id="temperatureID" class= "temperature-class white">73</p>
+                </div>
+                
+</div>
+<div class="row">
+        <div class="col-md-4">
+                
+                
+                </div>
+                <div class="col-md-8">
+                    <p class="HumidityClass white">Humidity: <span id= "humidityID">70</span>%</p>
+                    <p class="tempHiLo white">High: <span id="tempHighID">85</span></p>
+                    <p class="tempHiLo white">Low: <span id="tempLowID">45</span></p>
+                    
+                </div>
+                
+</div>
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+    <script src="weather2.js"></script>
+</body>
+
+</html>
