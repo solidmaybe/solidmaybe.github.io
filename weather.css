@@ -1,3 +1,12 @@
+body{
+	background-image: url("https://solidmaybe.github.io/weather/partly-cloudy-early-evening-light.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: auto;
+	background-size:1600px 1600px
+}
+
+
 .lobster {
     font-family: 'Lobster Two', cursive;
 }
